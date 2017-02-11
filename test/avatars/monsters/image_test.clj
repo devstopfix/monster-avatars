@@ -1,8 +1,8 @@
-(ns devstopfix.monsters.image-test
+(ns avatars.monsters.image-test
   (:require [clojure.test :refer :all]
-            [devstopfix.monsters.image :refer :all]
-            [devstopfix.monsters.parts :as parts]
-            [devstopfix.monster :as monster])
+            [avatars.monsters.image :refer :all]
+            [avatars.monsters.parts :as parts]
+            [avatars.monster :as monster])
   (:import [java.io File]
            [java.util Random]))
 

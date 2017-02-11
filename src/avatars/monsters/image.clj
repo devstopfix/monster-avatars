@@ -1,4 +1,4 @@
-(ns devstopfix.monsters.image
+(ns avatars.monsters.image
 	[:import [java.awt Color Graphics2D RenderingHints]
 	         [com.jhlabs.image HSBAdjustFilter GaussianFilter]
 	         [java.io File]

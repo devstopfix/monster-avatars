@@ -1,6 +1,6 @@
-(ns devstopfix.monster
-	[:require [devstopfix.monsters.image :as image]
-	          [devstopfix.monsters.parts :as parts]]
+(ns avatars.monster
+	[:require [avatars.monsters.image :as image]
+	          [avatars.monsters.parts :as parts]]
 	[:import  [java.util Random]
 	          [java.io File]])
 

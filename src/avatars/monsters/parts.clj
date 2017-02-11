@@ -1,5 +1,5 @@
-(ns devstopfix.monsters.parts
-	[:use devstopfix.monsters.image]
+(ns avatars.monsters.parts
+	[:use avatars.monsters.image]
 	[:import [javax.imageio	ImageIO]
 	         [java.util Random]]
 	[:require [clojure.java.io :as io]])

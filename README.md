@@ -9,11 +9,13 @@ Build with `leiningen'
 
     lein install
 
-Create monsters in the REPL:
-
-    lein repl
+Create monsters in the REPL (`lein repl`):
 
 ```
+(require '[avatars.monster :as m])
+(->
+  (m/new-monster)
+  (m/save (java.io.File. "/tmp/random-monster.png")))
 ```
 
 Credits
